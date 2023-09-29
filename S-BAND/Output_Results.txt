@@ -1,0 +1,276 @@
+Here the sample outputs in serial monitor of arduino Ide
+
+1)CHECKED IN OPEN AREA:
+
+  Time stamp     Values
+
+16:45:46.542 -> RSSI VALUE :-12
+16:45:46.589 -> SAFE ZONE
+16:45:47.673 -> your chid is safe
+16:45:47.706 -> RSSI VALUE :-12
+16:45:47.744 -> your chid is safe
+16:45:48.870 -> RSSI VALUE :-12
+16:45:48.870 -> SAFE ZONE
+16:45:49.995 -> your chid is safe
+16:45:50.039 -> RSSI VALUE :-12
+16:45:50.039 -> SAFE ZONE
+16:45:51.162 -> your chid is safe
+16:45:51.162 -> RSSI VALUE :-12
+16:45:56.956 -> SAFE ZONE
+16:46:02.684 -> RSSI VALUE :-12
+16:46:02.726 -> SAFE ZONE
+16:48:46.201 -> your chid is safe
+16:48:46.201 -> RSSI VALUE :-9
+16:48:46.245 -> SAFE ZONE
+16:48:47.340 -> your chid is safe
+16:48:47.374 -> RSSI VALUE :-12
+16:48:47.374 -> SAFE ZONE
+16:49:36.337 -> RSSI VALUE :-18
+16:49:36.337 -> SAFE ZONE
+16:49:41.325 -> ALERT : your chid is going out of radius
+16:49:41.420 -> -55
+16:49:42.308 -> ALERT : your chid is going out of radius
+16:49:42.384 -> -66
+16:49:43.324 -> ALERT : your chid is going out of radius
+16:49:43.366 -> -77
+16:49:44.324 -> ALERT : your chid is going out of radius
+16:49:44.356 -> -88
+16:49:45.343 -> ALERT : your chid is going out of radius
+16:49:52.329 -> ALERT : your chid is going out of radius
+16:49:52.406 -> 79
+16:49:53.342 -> ALERT : your chid is going out of radius
+16:49:53.375 -> 68
+16:49:54.353 -> your chid is safe
+16:49:54.353 -> RSSI VALUE :56
+16:49:54.400 -> SAFE ZONE
+16:49:58.360 -> your chid is safe
+16:49:58.454 -> RSSI VALUE :-44
+16:49:58.454 -> ALERT ZONE
+16:49:59.506 -> your chid is safe
+16:49:59.539 -> RSSI VALUE :-12
+16:49:59.539 -> SAFE ZONE
+16:50:00.677 -> your chid is safe
+16:50:00.677 -> RSSI VALUE :-12
+16:50:00.722 -> SAFE ZONE
+16:50:01.824 -> your chid is safe
+16:50:01.824 -> RSSI VALUE :-12
+16:50:01.866 -> SAFE ZONE
+16:50:02.959 -> your chid is safe
+16:50:02.991 -> RSSI VALUE :-12
+16:50:03.035 -> SAFE ZONE
+16:50:07.972 -> ALERT : your chid is going out of radius
+16:50:08.067 -> -55
+16:50:08.992 -> ALERT : your chid is going out of radius
+16:50:09.036 -> -66
+16:50:11.990 -> ALERT : your chid is going out of radius
+16:50:12.035 -> -100
+16:50:12.977 -> your chid is safe
+16:50:13.009 -> RSSI VALUE :-111
+16:50:13.051 -> ALERT ZONE
+16:50:14.132 -> your chid is safe
+16:50:23.454 -> your chid is safe
+16:50:23.454 -> RSSI VALUE :-51
+16:50:23.535 -> ALERT ZONE
+16:50:28.446 -> your chid is safe
+16:50:28.446 -> RSSI VALUE :-55
+16:50:28.549 -> ALERT ZONE
+16:50:29.576 -> your chid is safe
+16:50:29.609 -> RSSI VALUE :-12
+16:50:29.609 -> SAFE ZONE
+16:50:30.752 -> your chid is safe
+16:50:30.752 -> RSSI VALUE :-12
+16:50:30.796 -> SAFE ZONE
+16:50:35.757 -> ALERT : your chid is going out of radius
+16:50:35.848 -> -55
+16:50:36.761 -> ALERT : your chid is going out of radius
+16:50:36.800 -> -66
+16:50:37.764 -> ALERT : your chid is going out of radius
+16:50:37.799 -> -77
+16:50:38.759 -> ALERT : your chid is going out of radius
+16:50:38.802 -> -88
+16:50:39.738 -> ALERT : your chid is going out of radius
+16:50:46.774 -> ALERT : your chid is going out of radius
+16:50:46.820 -> 79
+16:50:47.786 -> your chid is safe
+16:50:47.786 -> RSSI VALUE :68
+16:50:47.819 -> SAFE ZONE
+16:50:52.791 -> ALERT : your chid is going out of radius
+16:50:52.867 -> -55
+16:50:53.794 -> your chid is safe
+16:50:53.795 -> RSSI VALUE :-66
+16:50:53.839 -> ALERT ZONE
+16:51:00.788 -> your chid is safe
+16:51:00.823 -> RSSI VALUE :-77
+16:51:00.823 -> ALERT ZONE
+16:51:01.945 -> your chid is safe
+16:51:01.978 -> RSSI VALUE :-12
+16:51:01.978 -> SAFE ZONE
+16:51:08.867 -> RSSI VALUE :-12
+16:51:08.910 -> SAFE ZONE
+17:00:24.841 -> your chid is safe
+17:00:24.874 -> RSSI VALUE :-9
+17:00:24.874 -> SAFE ZONE
+17:00:28.310 -> your chid is safe
+17:00:28.310 -> RSSI VALUE :-12
+17:00:28.353 -> SAFE ZONE
+
+Here we observed minimum fluctuations occured because of no obstacles...
+=======================================================================================================
+
+2)CHECKED IN INDOOR AREA: 
+
+  Time stamp     Values
+
+17:00:34.883 -> RSSI VALUE :-7
+17:00:34.925 -> SAFE ZONE
+17:00:36.034 -> your chid is safe
+17:00:36.035 -> RSSI VALUE :-12
+17:00:36.079 -> SAFE ZONE
+17:00:40.646 -> RSSI VALUE :-12
+17:00:40.689 -> SAFE ZONE
+17:00:41.789 -> your chid is safe
+17:00:41.789 -> RSSI VALUE :-12
+17:00:41.834 -> SAFE ZONE
+17:02:14.046 -> SAFE ZONE
+17:02:15.130 -> your chid is safe
+17:02:15.163 -> RSSI VALUE :-12
+17:02:15.206 -> SAFE ZONE
+17:02:20.151 -> ALERT : your chid is going out of radius
+17:02:20.184 -> DANGER ZONE
+17:02:20.227 -> -55
+17:02:21.151 -> ALERT : your chid is going out of radius
+17:02:21.184 -> DANGER ZONE
+17:02:39.233 -> DANGER ZONE
+17:02:39.275 -> -10
+17:02:40.188 -> ALERT : your chid is going out of radius
+17:02:40.264 -> DANGER ZONE
+17:02:40.264 -> -21
+17:02:41.187 -> your chid is safe
+17:02:41.220 -> RSSI VALUE :-33
+17:02:41.220 -> ALERT ZONE
+17:02:46.221 -> ALERT : your chid is going out of radius
+17:02:46.306 -> DANGER ZONE
+17:02:46.306 -> -55
+17:02:47.224 -> ALERT : your chid is going out of radius
+17:02:47.266 -> DANGER ZONE
+17:02:47.266 -> -66
+17:02:53.212 -> ALERT : your chid is going out of radius
+17:02:53.288 -> DANGER ZONE
+17:02:53.288 -> 123
+17:02:54.216 -> your chid is safe
+17:02:54.249 -> RSSI VALUE :112
+17:02:54.249 -> SAFE ZONE
+17:02:59.250 -> ALERT : your chid is going out of radius
+17:02:59.342 -> DANGER ZONE
+17:02:59.342 -> -55
+17:03:30.320 -> ALERT : your chid is going out of radius
+17:03:30.354 -> DANGER ZONE
+17:03:30.354 -> 112
+17:03:31.315 -> your chid is safe
+17:03:31.315 -> RSSI VALUE :101
+17:03:31.356 -> SAFE ZONE
+17:03:36.320 -> ALERT : your chid is going out of radius
+17:03:36.416 -> DANGER ZONE
+17:03:36.416 -> -55
+17:03:37.336 -> ALERT : your chid is going out of radius
+17:03:37.381 -> DANGER ZONE
+17:03:37.382 -> -66
+17:03:52.343 -> ALERT : your chid is going out of radius
+17:03:52.417 -> DANGER ZONE
+17:03:52.417 -> 23
+17:03:53.370 -> ALERT : your chid is going out of radius
+17:03:53.408 -> DANGER ZONE
+17:03:53.408 -> 12
+17:03:54.361 -> your chid is safe
+17:03:54.405 -> RSSI VALUE :1
+17:03:54.405 -> SAFE ZONE
+17:03:56.360 -> your chid is safe
+17:03:56.360 -> RSSI VALUE :-22
+17:03:56.401 -> ALERT ZONE
+17:03:57.515 -> your chid is safe
+17:03:57.515 -> RSSI VALUE :-12
+17:04:23.408 -> ALERT : your chid is going out of radius
+17:04:23.486 -> DANGER ZONE
+17:04:23.486 -> -55
+17:04:24.432 -> your chid is safe
+17:04:24.432 -> RSSI VALUE :-66
+17:04:24.465 -> ALERT ZONE
+17:04:25.579 -> your chid is safe
+17:04:25.579 -> RSSI VALUE :-12
+17:04:25.633 -> SAFE ZONE
+17:04:26.709 -> your chid is safe
+17:04:26.742 -> RSSI VALUE :-12
+17:04:26.785 -> SAFE ZONE
+17:04:27.881 -> your chid is safe
+17:04:27.881 -> RSSI VALUE :-12
+17:04:27.921 -> SAFE ZONE
+17:04:46.250 -> ALERT : your chid is going out of radius
+17:04:46.327 -> DANGER ZONE
+17:04:46.327 -> -88
+17:04:47.266 -> your chid is safe
+17:04:47.299 -> RSSI VALUE :-100
+17:04:47.299 -> ALERT ZONE
+17:04:48.433 -> your chid is safe
+17:04:48.433 -> RSSI VALUE :-12
+17:04:48.472 -> SAFE ZONE
+17:04:53.426 -> ALERT : your chid is going out of radius
+17:04:53.521 -> DANGER ZONE
+17:04:53.521 -> -55
+17:04:54.442 -> your chid is safe
+17:04:54.442 -> RSSI VALUE :-66
+17:04:54.488 -> ALERT ZONE
+17:04:59.451 -> ALERT : your chid is going out of radius
+17:04:59.543 -> DANGER ZONE
+17:05:19.876 -> your chid is safe
+17:05:19.876 -> RSSI VALUE :-12
+17:05:19.914 -> SAFE ZONE
+17:05:21.027 -> your chid is safe
+17:05:21.027 -> RSSI VALUE :-12
+17:05:21.059 -> SAFE ZONE
+17:05:26.036 -> ALERT : your chid is going out of radius
+17:05:26.133 -> DANGER ZONE
+17:05:26.133 -> -55
+17:05:27.027 -> ALERT : your chid is going out of radius
+17:05:27.060 -> DANGER ZONE
+17:05:27.104 -> -66
+17:05:28.035 -> your chid is safe
+17:05:28.035 -> RSSI VALUE :-77
+17:05:28.068 -> ALERT ZONE
+17:05:30.583 -> your chid is safe
+17:05:48.281 -> your chid is safe
+17:05:48.281 -> RSSI VALUE :-12
+17:05:48.322 -> SAFE ZONE
+17:05:53.293 -> ALERT : your chid is going out of radius
+17:05:53.386 -> DANGER ZONE
+17:05:53.386 -> -55
+17:05:54.279 -> your chid is safe
+17:05:54.312 -> RSSI VALUE :-66
+17:05:54.312 -> ALERT ZONE
+17:05:59.301 -> ALERT : your chid is going out of radius
+17:05:59.390 -> DANGER ZONE
+17:05:59.390 -> -55
+17:06:00.309 -> ALERT : your chid is going out of radius
+17:06:00.352 -> DANGER ZONE
+17:50:54.110 -> DANGER ZONE
+17:50:54.110 -> -77
+17:50:55.046 -> ALERT : your chid is going out of radius
+17:50:55.079 -> DANGER ZONE
+17:50:55.135 -> -88
+17:51:03.082 -> ALERT : your chid is going out of radius
+17:51:03.120 -> DANGER ZONE
+17:51:03.120 -> 79
+17:51:04.085 -> ALERT : your chid is going out of radius
+17:51:04.138 -> DANGER ZONE
+17:51:04.138 -> 68
+
+Here we presenting maximum fluctuations occured because of obstacles by wall etc...
+
+=================================================================================================
+
+Note : Here we provided maximum fluctuated values and we shortout some of the sampled values .
+       We checked sampled values (INDOOR and OUTDOOR).
+
+
+
+THANKYOU... 
+

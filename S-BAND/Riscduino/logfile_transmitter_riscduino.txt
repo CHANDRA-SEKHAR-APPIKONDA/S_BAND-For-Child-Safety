@@ -1,0 +1,461 @@
+FQBN: riscduino:riscv:uno
+Using board 'uno' from platform in folder: C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5
+Using core 'riscduino' from platform in folder: C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5
+
+Detecting libraries used...
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\variants\standard C:\Users\SEKHAR\AppData\Local\Temp\arduino\sketches\163BB42D736F75FD9136999B674F275A\sketch\sketch_sep28d.ino.cpp -o nul
+Alternatives for SPI.h: [SPI@1.0]
+ResolveLibrary(SPI.h)
+  -> candidates: [SPI@1.0]
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\libraries\SPI\src C:\Users\SEKHAR\AppData\Local\Temp\arduino\sketches\163BB42D736F75FD9136999B674F275A\sketch\sketch_sep28d.ino.cpp -o nul
+Alternatives for nRF24L01.h: [RF24@1.4.8]
+ResolveLibrary(nRF24L01.h)
+  -> candidates: [RF24@1.4.8]
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\libraries\SPI\src -Ic:\Users\SEKHAR\Documents\Arduino\libraries\RF24 C:\Users\SEKHAR\AppData\Local\Temp\arduino\sketches\163BB42D736F75FD9136999B674F275A\sketch\sketch_sep28d.ino.cpp -o nul
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\libraries\SPI\src -Ic:\Users\SEKHAR\Documents\Arduino\libraries\RF24 C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\libraries\SPI\src\SPI.cpp -o nul
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\libraries\SPI\src -Ic:\Users\SEKHAR\Documents\Arduino\libraries\RF24 -IC:\Users\SEKHAR\Documents\Arduino\libraries\RF24\utility c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp -o nul
+Generating function prototypes...
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\libraries\SPI\src -Ic:\Users\SEKHAR\Documents\Arduino\libraries\RF24 C:\Users\SEKHAR\AppData\Local\Temp\arduino\sketches\163BB42D736F75FD9136999B674F275A\sketch\sketch_sep28d.ino.cpp -o C:\Users\SEKHAR\AppData\Local\Temp\3834274892\sketch_merged.cpp
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\builtin\tools\ctags\5.8-arduino11/ctags -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives C:\Users\SEKHAR\AppData\Local\Temp\3834274892\sketch_merged.cpp
+Compiling sketch...
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-g++" -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5\\system/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/env" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/drivers" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/env/riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/env/uncache" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32" -include sys/cdefs.h -g -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5\\cores\\riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5\\variants\\standard" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5\\libraries\\SPI\\src" "-Ic:\\Users\\SEKHAR\\Documents\\Arduino\\libraries\\RF24" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A\\sketch\\sketch_sep28d.ino.cpp" -o "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A\\sketch\\sketch_sep28d.ino.cpp.o"
+Compiling libraries...
+Compiling library "SPI"
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-g++" -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5\\system/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/env" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/drivers" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/env/riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/env/uncache" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32" -include sys/cdefs.h -g -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5\\cores\\riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5\\variants\\standard" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5\\libraries\\SPI\\src" "-Ic:\\Users\\SEKHAR\\Documents\\Arduino\\libraries\\RF24" "C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5\\libraries\\SPI\\src\\SPI.cpp" -o "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A\\libraries\\SPI\\SPI.cpp.o"
+Compiling core...
+Using precompiled core: C:\Users\SEKHAR\AppData\Local\Temp\arduino\cores\riscduino_riscv_uno_toolsloc_default_f08f1ffcb8e0ec28e57b221d3514d7f2\core.a
+Linking everything together...
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-g++" -march=rv32imc -mabi=ilp32 -T "C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.5/sdk/bsp/env/uncache/link.lds" -nostartfiles -Wl,-N -Wl,--gc-sections -Wl,--wrap=malloc -Wl,--wrap=free -Wl,--wrap=sbrk "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A\\sketch\\sketch_sep28d.ino.cpp.o" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A\\libraries\\SPI\\SPI.cpp.o" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A\\libraries\\RF24\\RF24.cpp.o" -nostdlib -Wl,--start-group "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\cores\\riscduino_riscv_uno_toolsloc_default_f08f1ffcb8e0ec28e57b221d3514d7f2\\core.a" -lm -lstdc++ -lc -lgloss -Wl,--end-group -lgcc -o "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A/sketch_sep28d.ino.elf"
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-objcopy" -R .rel.dyn -O binary "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A/sketch_sep28d.ino.elf" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A/sketch_sep28d.ino.bin"
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-objcopy" -R .rel.dyn -O verilog "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A/sketch_sep28d.ino.elf" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A/sketch_sep28d.ino.hex"
+Using library SPI at version 1.0 in folder: C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.5\libraries\SPI 
+Using library RF24 at version 1.4.8 in folder: C:\Users\SEKHAR\Documents\Arduino\libraries\RF24 
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-size" -B "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\163BB42D736F75FD9136999B674F275A/sketch_sep28d.ino.elf"
+Sketch uses 9988 bytes (0%) of program storage space. Maximum is 8388608 bytes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FQBN: riscduino:riscv:uno
+Using board 'uno' from platform in folder: C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7
+Using core 'riscduino' from platform in folder: C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7
+
+Detecting libraries used...
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\variants\standard C:\Users\SEKHAR\AppData\Local\Temp\arduino\sketches\B64CBF390FF120D922334DF751313C78\sketch\sketch_sep28d.ino.cpp -o nul
+Alternatives for SPI.h: [SPI@1.0]
+ResolveLibrary(SPI.h)
+  -> candidates: [SPI@1.0]
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src C:\Users\SEKHAR\AppData\Local\Temp\arduino\sketches\B64CBF390FF120D922334DF751313C78\sketch\sketch_sep28d.ino.cpp -o nul
+Alternatives for nRF24L01.h: [RF24@1.4.8]
+ResolveLibrary(nRF24L01.h)
+  -> candidates: [RF24@1.4.8]
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src -Ic:\Users\SEKHAR\Documents\Arduino\libraries\RF24 C:\Users\SEKHAR\AppData\Local\Temp\arduino\sketches\B64CBF390FF120D922334DF751313C78\sketch\sketch_sep28d.ino.cpp -o nul
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src -Ic:\Users\SEKHAR\Documents\Arduino\libraries\RF24 C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src\SPI.cpp -o nul
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src -Ic:\Users\SEKHAR\Documents\Arduino\libraries\RF24 -IC:\Users\SEKHAR\Documents\Arduino\libraries\RF24\utility c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp -o nul
+Generating function prototypes...
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/bin/riscv64-unknown-elf-g++ -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\system/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/include -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/drivers -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7/sdk/bsp/env/uncache -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\tools\riscv64-unknown-elf-gcc\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32 -include sys/cdefs.h -g -w -x c++ -E -CC -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\variants\standard -IC:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src -Ic:\Users\SEKHAR\Documents\Arduino\libraries\RF24 C:\Users\SEKHAR\AppData\Local\Temp\arduino\sketches\B64CBF390FF120D922334DF751313C78\sketch\sketch_sep28d.ino.cpp -o C:\Users\SEKHAR\AppData\Local\Temp\4094817885\sketch_merged.cpp
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\builtin\tools\ctags\5.8-arduino11/ctags -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives C:\Users\SEKHAR\AppData\Local\Temp\4094817885\sketch_merged.cpp
+Compiling sketch...
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-g++" -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\system/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/drivers" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env/riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env/uncache" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32" -include sys/cdefs.h -g -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\cores\\riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\variants\\standard" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\libraries\\SPI\\src" "-Ic:\\Users\\SEKHAR\\Documents\\Arduino\\libraries\\RF24" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78\\sketch\\sketch_sep28d.ino.cpp" -o "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78\\sketch\\sketch_sep28d.ino.cpp.o"
+Compiling libraries...
+Compiling library "SPI"
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-g++" -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\system/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/drivers" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env/riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env/uncache" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32" -include sys/cdefs.h -g -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\cores\\riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\variants\\standard" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\libraries\\SPI\\src" "-Ic:\\Users\\SEKHAR\\Documents\\Arduino\\libraries\\RF24" "C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\libraries\\SPI\\src\\SPI.cpp" -o "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78\\libraries\\SPI\\SPI.cpp.o"
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src\SPI.cpp: In member function 'byte SPIClass::transfer(uint8_t, SPITransferMode)':
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src\SPI.cpp:110:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  110 | }
+      | ^
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src\SPI.cpp: In member function 'byte SPIClass::write_transfer(uint8_t, SPITransferMode)':
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src\SPI.cpp:122:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  122 | }
+      | ^
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src\SPI.cpp: In member function 'void SPIClass::transfer(byte, void*, size_t, SPITransferMode)':
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src\SPI.cpp:176:13: warning: variable 'd' set but not used [-Wunused-but-set-variable]
+  176 |   uint8_t r,d;
+      |             ^
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src\SPI.cpp:181:7: warning: 'x' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  181 |     r = x & 0xFF;
+      |     ~~^~~~~~~~~~
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI\src\SPI.cpp:189:5: warning: 'x' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  189 |   r = x & 0xFF;
+      |   ~~^~~~~~~~~~
+Compiling library "RF24"
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-g++" -c -O2 -march=rv32imc -mabi=ilp32 -fpeel-loops -ffreestanding -ffunction-sections -fdata-sections -fpermissive -Wall -fno-rtti -fno-exceptions "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\system/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/include" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/drivers" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env/riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env/uncache" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imc/ilp32" -include sys/cdefs.h -g -DRISCDUINO_SOC=62023 -DARDUINO=10607 -DF_CPU=10000000LL -DRISCDUINO_UNO "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\cores\\riscduino" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\variants\\standard" "-IC:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7\\libraries\\SPI\\src" "-Ic:\\Users\\SEKHAR\\Documents\\Arduino\\libraries\\RF24" "-IC:\\Users\\SEKHAR\\Documents\\Arduino\\libraries\\RF24\\utility" "c:\\Users\\SEKHAR\\Documents\\Arduino\\libraries\\RF24\\RF24.cpp" -o "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78\\libraries\\RF24\\RF24.cpp.o"
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp: In member function 'void RF24::print_byte_register(const char*, uint8_t, uint8_t)':
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:25: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'const char*' [-Wformat=]
+  192 |         #define PRIPSTR "%S"
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:529:19: note: in expansion of macro 'PRIPSTR'
+  529 |     printf_P(PSTR(PRIPSTR
+      |                   ^~~~~~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp: In member function 'void RF24::print_address_register(const char*, uint8_t, uint8_t)':
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:25: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'const char*' [-Wformat=]
+  192 |         #define PRIPSTR "%S"
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:543:19: note: in expansion of macro 'PRIPSTR'
+  543 |     printf_P(PSTR(PRIPSTR
+      |                   ^~~~~~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp: In member function 'void RF24::printDetails()':
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:734:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  734 |     printf_P(PSTR("Data Rate\t" PRIPSTR
+  735 |                   "\r\n"),
+  736 |              (char*)(pgm_read_ptr(&rf24_datarate_e_str_P[getDataRate()])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:737:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  737 |     printf_P(PSTR("Model\t\t= " PRIPSTR
+  738 |                   "\r\n"),
+  739 |              (char*)(pgm_read_ptr(&rf24_model_e_str_P[isPVariant()])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:740:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  740 |     printf_P(PSTR("CRC Length\t" PRIPSTR
+  741 |                   "\r\n"),
+  742 |              (char*)(pgm_read_ptr(&rf24_crclength_e_str_P[getCRCLength()])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:743:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  743 |     printf_P(PSTR("PA Power\t" PRIPSTR
+  744 |                   "\r\n"),
+  745 |              (char*)(pgm_read_ptr(&rf24_pa_dbm_e_str_P[getPALevel()])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp: In member function 'void RF24::printPrettyDetails()':
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:767:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  767 |     printf_P(PSTR("Model\t\t\t= " PRIPSTR
+  768 |                   "\r\n"),
+  769 |              (char*)(pgm_read_ptr(&rf24_model_e_str_P[isPVariant()])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:771:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  771 |     printf_P(PSTR("RF Data Rate\t\t" PRIPSTR
+  772 |                   "\r\n"),
+  773 |              (char*)(pgm_read_ptr(&rf24_datarate_e_str_P[getDataRate()])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:774:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  774 |     printf_P(PSTR("RF Power Amplifier\t" PRIPSTR
+  775 |                   "\r\n"),
+  776 |              (char*)(pgm_read_ptr(&rf24_pa_dbm_e_str_P[getPALevel()])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:777:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  777 |     printf_P(PSTR("RF Low Noise Amplifier\t" PRIPSTR
+  778 |                   "\r\n"),
+  779 |              (char*)(pgm_read_ptr(&rf24_feature_e_str_P[(read_register(RF_SETUP) & 1) * 1])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:780:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  780 |     printf_P(PSTR("CRC Length\t\t" PRIPSTR
+  781 |                   "\r\n"),
+  782 |              (char*)(pgm_read_ptr(&rf24_crclength_e_str_P[getCRCLength()])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:795:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  795 |     printf_P(PSTR("Multicast\t\t" PRIPSTR
+  796 |                   "\r\n"),
+  797 |              (char*)(pgm_read_ptr(&rf24_feature_e_str_P[static_cast<bool>(features & _BV(EN_DYN_ACK)) * 2])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:798:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  798 |     printf_P(PSTR("Custom ACK Payload\t" PRIPSTR
+  799 |                   "\r\n"),
+  800 |              (char*)(pgm_read_ptr(&rf24_feature_e_str_P[static_cast<bool>(features & _BV(EN_ACK_PAY)) * 1])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:803:19: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  803 |     printf_P(PSTR("Dynamic Payloads\t" PRIPSTR
+  804 |                   "\r\n"),
+  805 |              (char*)(pgm_read_ptr(&rf24_feature_e_str_P[(dynPl && (features & _BV(EN_DPL))) * 1])));
+      |              ~     
+      |              |
+      |              char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:810:23: warning: format '%S' expects argument of type 'wchar_t*', but argument 2 has type 'char*' [-Wformat=]
+  810 |         printf_P(PSTR("Auto Acknowledgment\t" PRIPSTR
+  811 |                       "\r\n"),
+  812 |                  (char*)(pgm_read_ptr(&rf24_feature_e_str_P[static_cast<bool>(autoAck) * 1])));
+      |                  ~     
+      |                  |
+      |                  char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:832:23: warning: format '%S' expects argument of type 'wchar_t*', but argument 3 has type 'char*' [-Wformat=]
+  832 |         printf_P(PSTR("pipe %u (" PRIPSTR
+  833 |                       ") bound"),
+  834 |                  i, (char*)(pgm_read_ptr(&rf24_feature_e_str_P[isOpen + 3])));
+      |                     ~  
+      |                     |
+      |                     char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:8:20: note: in definition of macro 'PSTR'
+    8 | #define PSTR(str) (str)
+      |                    ^~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+In file included from C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/Arduino.h:32,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:84,
+                 from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp: In member function 'uint16_t RF24::sprintfPrettyDetails(char*)':
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:891:50: warning: format '%S' expects argument of type 'wchar_t*', but argument 3 has type 'char*' [-Wformat=]
+  891 |             debugging_information + offset, PSTR("" PRIPSTR ""),
+  892 |             (char*)(pgm_read_ptr(&rf24_feature_e_str_P[static_cast<bool>(autoAck) * 1])));
+      |             ~                                     
+      |             |
+      |             char*
+C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\cores\riscduino/avr/pgmspace.h:28:44: note: in definition of macro 'sprintf_P'
+   28 | #define sprintf_P(s, f, ...) sprintf((s), (f), __VA_ARGS__)
+      |                                            ^
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:891:45: note: in expansion of macro 'PSTR'
+  891 |             debugging_information + offset, PSTR("" PRIPSTR ""),
+      |                                             ^~~~
+In file included from c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24.cpp:10:
+c:\Users\SEKHAR\Documents\Arduino\libraries\RF24\RF24_config.h:192:27: note: format string is defined here
+  192 |         #define PRIPSTR "%S"
+      |                          ~^
+      |                           |
+      |                           wchar_t*
+      |                          %s
+Compiling core...
+Using precompiled core: C:\Users\SEKHAR\AppData\Local\Temp\arduino\cores\riscduino_riscv_uno_toolsloc_default_89f83eaeb1c01920269f9bafaffabed1\core.a
+Linking everything together...
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-g++" -march=rv32imc -mabi=ilp32 -T "C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\hardware\\riscv\\1.2.7/sdk/bsp/env/uncache/link.lds" -nostartfiles -Wl,-N -Wl,--gc-sections -Wl,--wrap=malloc -Wl,--wrap=free -Wl,--wrap=sbrk "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78\\sketch\\sketch_sep28d.ino.cpp.o" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78\\libraries\\SPI\\SPI.cpp.o" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78\\libraries\\RF24\\RF24.cpp.o" -nostdlib -Wl,--start-group "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\cores\\riscduino_riscv_uno_toolsloc_default_89f83eaeb1c01920269f9bafaffabed1\\core.a" -lm -lstdc++ -lc -lgloss -Wl,--end-group -lgcc -o "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78/sketch_sep28d.ino.elf"
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-objcopy" -R .rel.dyn -O binary "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78/sketch_sep28d.ino.elf" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78/sketch_sep28d.ino.bin"
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-objcopy" -R .rel.dyn -O verilog "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78/sketch_sep28d.ino.elf" "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78/sketch_sep28d.ino.hex"
+
+Using library SPI at version 1.0 in folder: C:\Users\SEKHAR\AppData\Local\Arduino15\packages\riscduino\hardware\riscv\1.2.7\libraries\SPI 
+Using library RF24 at version 1.4.8 in folder: C:\Users\SEKHAR\Documents\Arduino\libraries\RF24 
+"C:\\Users\\SEKHAR\\AppData\\Local\\Arduino15\\packages\\riscduino\\tools\\riscv64-unknown-elf-gcc\\1.0.1/bin/riscv64-unknown-elf-size" -B "C:\\Users\\SEKHAR\\AppData\\Local\\Temp\\arduino\\sketches\\B64CBF390FF120D922334DF751313C78/sketch_sep28d.ino.elf"
+Sketch uses 9988 bytes (0%) of program storage space. Maximum is 8388608 bytes.
+
